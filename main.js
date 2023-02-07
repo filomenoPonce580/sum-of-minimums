@@ -12,3 +12,13 @@ function sumOfMinimums(arr) {
   //return reduced value to get sum
   return minimums.reduce((a, c) => a + c, 0)
 }
+
+
+/*
+learn how this streamlined version of the function works
+
+function sumOfMinimums(arr) {
+  return arr.reduce((a, c) => a + Math.min(...c), 0);
+}
+
+*/
